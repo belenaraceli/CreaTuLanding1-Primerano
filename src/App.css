@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body {
+  background-color: #eacbcb;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

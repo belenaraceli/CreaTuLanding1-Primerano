@@ -1,12 +1,11 @@
-// src/components/CartWidget.jsx
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 
-const CartWidget = ({ itemCount }) => {  // 🛠️ Recibe "itemCount" como prop
+const CartWidget = ({ itemCount }) => {  
   return (
     <div className="cart-widget">
-      <FaShoppingCart size={24} color="white" />
-      <span className="badge bg-danger">{itemCount}</span> {/* 🛠️ Muestra el prop */}
+      <FaShoppingCart size={24} color="#FFD700" />
+      <span className="badge bg-danger">{itemCount}</span> {}
     </div>
   );
 };
