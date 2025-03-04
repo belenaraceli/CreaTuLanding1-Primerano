@@ -3,7 +3,7 @@ import CartWidget from "./CartWidget";
 
 const NavBar = () => {
   return (
-    <nav className="navbar bg-dark text-white p-3">
+    <nav className="navbar text-white p-3" style={{ backgroundColor: '#e7aeae' }}>
       <div className="container">
         <a className="navbar-brand text-white" href="#">Inicio</a>
         <ul className="nav">
